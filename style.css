@@ -1,0 +1,41 @@
+body{
+    background-size: cover;
+}
+.heading{
+    border: 10px dashed white;
+    transition: 1s;
+    border-radius: 15%;
+    color: white;
+    background:crimson;
+    text-align:center;
+}
+.heading:hover{
+    color: blue;
+    background:green;
+    border-radius: 0%;
+}
+#song_name{
+    opacity: 25%;
+    border:  5px dashed white;
+    transition: .5s;
+    border-radius: 10%;
+    margin-left: 45%;
+    align-items: center;
+    margin-top: 200px;
+    text-align: center;
+    background: greenyellow;
+    width: fit-content;
+}
+#song_name:hover{
+    opacity: 100%;
+    border-radius: 2%;
+    color: white;
+    background: crimson;
+}
+canvas{
+    margin-top: 400px;
+    background: rgb(62, 62, 247);
+    height: 400px;
+    width: 800px;
+
+}
